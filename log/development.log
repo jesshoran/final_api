@@ -16,3 +16,39 @@ Migrating to CreateWorkouts (20200928181223)
   [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(1446487261892759940)[0m
   [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mWorkout Load (0.9ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mWorkout Load (0.4ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mWorkout Load (0.2ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts" WHERE "workouts"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (1.5ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Jump Lunge"], ["impact", "High"], ["fitness_type", "Power, Cardio"], ["focus", "Lower Body"], ["img", "https://media1.popsugar-assets.com/files/thumbor/XBjqBbublGCisq8WJ589r9Ljlws/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2018/12/28/137/n/1922729/tmp_1KPWA3_4a8efb52e5e289b7_PS17_0001_GetFit_Fitness_Workout_0738.jpg"], ["demo", "https://www.youtube.com/watch?v=6SFgE2_og_s"], ["reps", 20], ["created_at", "2020-09-28 18:54:54.602358"], ["updated_at", "2020-09-28 18:54:54.602358"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Burpee"], ["impact", "High"], ["fitness_type", "Power, Cardio"], ["focus", "Lower Body, Upper Body, Core"], ["img", "https://cdn.activebeat.com/eyJidWNrZXQiOiJwdWItc3RvcmFnZSIsImtleSI6ImFjdGl2ZWJlYXQvd3AtY29udGVudC91cGxvYWRzLzIwMTYvMDQvc2h1dHRlcnN0b2NrXzEzNTAyNDY3MzEtNzMweDQ5MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjoyNTYsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjowLCJnIjowLCJiIjowLCJhbHBoYSI6MX0sInBvc2l0aW9uIjoidG9wIn19fQ=="], ["demo", "https://www.youtube.com/watch?v=6SFgE2_og_s"], ["reps", 10], ["created_at", "2020-09-28 18:54:54.607832"], ["updated_at", "2020-09-28 18:54:54.607832"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.8ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Squat Jack"], ["impact", "High"], ["fitness_type", "Power, Cardio"], ["focus", "Lower Body"], ["img", "https://media1.popsugar-assets.com/files/thumbor/XBjqBbublGCisq8WJ589r9Ljlws/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2018/12/28/137/n/1922729/tmp_1KPWA3_4a8efb52e5e289b7_PS17_0001_GetFit_Fitness_Workout_0738.jpg"], ["demo", "https://www.youtube.com/watch?v=6SFgE2_og_s"], ["reps", 20], ["created_at", "2020-09-28 18:54:54.611547"], ["updated_at", "2020-09-28 18:54:54.611547"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Lunge"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Lower Body"], ["img", "https://media1.popsugar-assets.com/files/thumbor/XBjqBbublGCisq8WJ589r9Ljlws/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2018/12/28/137/n/1922729/tmp_1KPWA3_4a8efb52e5e289b7_PS17_0001_GetFit_Fitness_Workout_0738.jpg"], ["demo", "https://www.youtube.com/watch?v=6SFgE2_og_s"], ["reps", 20], ["created_at", "2020-09-28 18:54:54.615538"], ["updated_at", "2020-09-28 18:54:54.615538"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["name", "Squat"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Lower Body"], ["img", "https://media1.popsugar-assets.com/files/thumbor/XBjqBbublGCisq8WJ589r9Ljlws/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2018/12/28/137/n/1922729/tmp_1KPWA3_4a8efb52e5e289b7_PS17_0001_GetFit_Fitness_Workout_0738.jpg"], ["demo", "https://www.youtube.com/watch?v=6SFgE2_og_s"], ["reps", 20], ["created_at", "2020-09-28 18:54:54.618971"], ["updated_at", "2020-09-28 18:54:54.618971"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mWorkout Load (1.8ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts" LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2020-09-28 11:58:20 -0700
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jesshoran/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jesshoran/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 10.0ms | Allocations: 406)
+Completed 200 OK in 19ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 2204)
+
+
+Started GET "/workouts" for ::1 at 2020-09-28 11:58:24 -0700
+Processing by WorkoutsController#index as HTML
+  [1m[36mWorkout Load (0.8ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/workouts_controller.rb:8:in `index'
+Completed 200 OK in 23ms (Views: 14.8ms | ActiveRecord: 7.0ms | Allocations: 7947)
+
+
