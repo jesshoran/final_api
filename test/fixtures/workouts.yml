@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  impact: MyString
+  fitness_type: MyString
+  focus: MyString
+  img: MyString
+  demo: MyString
+  reps: 1
+
+two:
+  name: MyString
+  impact: MyString
+  fitness_type: MyString
+  focus: MyString
+  img: MyString
+  demo: MyString
+  reps: 1
