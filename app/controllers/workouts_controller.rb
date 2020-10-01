@@ -9,10 +9,10 @@ class WorkoutsController < ApplicationController
   end
 
   def high_impact
-    @workouts = Workout.all.sample(10)
+    @workouts = Workout.where(impact: "High").sample(10)
     render json: @workouts
-    redirect_to :high_impact
   end
+  
   # GET /workouts/1
   def show
     render json: @workout
