@@ -16,7 +16,7 @@ Workout.create([
 "demo": "https://www.youtube.com/watch?v=DNxmU1Sks7s",
 "reps": "20 total lunges - 10 on each side alternating each time",
 "muscles_worked": "Butt/Hips, Legs, Thighs" 
-},
+}, 
 
 {"name": "Alt Squat Kick",
 "impact": "Low",
@@ -264,6 +264,236 @@ Workout.create([
 "focus": "Core",
 "img": "https://i.imgur.com/uz0rXi5.jpg",
 "demo": "https://www.youtube.com/watch?v=1xEnIsD8gLM",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
+"muscles_worked": "Core" 
+},
+
+{"name": "Over Unders",
+"impact": "Low",
+"fitness_type": "Strength",
+"focus": "Core",
+"img": "https://i.imgur.com/RtiHQdP.jpg",
+"demo": "https://www.youtube.com/watch?v=wPiuJSpN8tk",
+"reps": "20 total",
+"muscles_worked": "Core" 
+},
+
+{"name": "Palms to Elbows",
+"impact": "Low",
+"fitness_type": "Strength",
+"focus": "Core",
+"img": "https://i.imgur.com/GqFJl61.jpg",
+"demo": "https://www.youtube.com/watch?v=ZoPwPHqH3b4",
+"reps": "10 total",
+"muscles_worked": "Core, Shoulders" 
+},
+
+{"name": "Pike Ups",
+"impact": "High",
+"fitness_type": "Cardio, Power",
+"focus": "Core",
+"img": "https://i.imgur.com/EBZPE91.jpg",
+"demo": "https://www.youtube.com/watch?v=1OiCM0_9hrk",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
+"muscles_worked": "Core" 
+},
+
+{"name": "Plank Hold",
+"impact": "Low",
+"fitness_type": "Strength",
+"focus": "Core",
+"img": "https://i.imgur.com/heQZBDJ.jpg",
+"demo": "https://www.youtube.com/watch?v=g-2Wsx-p0J8",
+"reps": "30 second hold",
+"muscles_worked": "Core" 
+},
+
+{"name": "Plank Jacks",
+"impact": "High",
+"fitness_type": "Cardio, Power",
+"focus": "Core",
+"img": "https://i.imgur.com/pQy65Uz.jpg",
+"demo": "https://www.youtube.com/watch?v=qmCb860mnzY",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
+"muscles_worked": "Core" 
+},
+
+{"name": "Push-Ups",
+"impact": "Low",
+"fitness_type": "Strength",
+"focus": "Upper",
+"img": "https://i.imgur.com/8vw9h93.jpg",
+"demo": "https://www.youtube.com/watch?v=h5YbvbCNBko",
+"reps": "10 total",
+"muscles_worked": "Shoulders, Arms, Chest" 
+},
+
+{"name": "Push-Up Jack",
+"impact": "High",
+"fitness_type": "Cardio, Power",
+"focus": "Upper",
+"img": "https://i.imgur.com/KEY2TDX.jpg",
+"demo": "https://www.youtube.com/watch?v=jNeoorzKF-w",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
+"muscles_worked": "Shoulders, Arms, Chest" 
+},
+
+{"name": "Reciprocating Knee",
+"impact": "Low",
+"fitness_type": "Strength",
+"focus": "Core",
+"img": "https://i.imgur.com/UVNXYd5.jpg",
+"demo": "https://www.youtube.com/watch?v=8GnIttSBlI0",
+"reps": "30 total",
+"muscles_worked": "Core" 
+},
+
+{"name": "Russian Twist",
+"impact": "Low",
+"fitness_type": "Strength",
+"focus": "Core",
+"img": "https://i.imgur.com/LhQ7Rq7.jpg",
+"demo": "https://www.youtube.com/watch?v=m5N9lqYjz64",
+"reps": "30 total",
+"muscles_worked": "Core" 
+},
+
+{"name": "Single Leg Hip bridge",
+"impact": "Low",
+"fitness_type": "Strength",
+"focus": "Lower",
+"img": "https://i.imgur.com/aovL4sn.jpg",
+"demo": "https://www.youtube.com/watch?v=gHJk9EedJPk",
+"reps": "10 on left side, then 10 on right side",
+"muscles_worked": "Butt/Hips, Core" 
+},
+
+{"name": "Single Leg Tri Dip",
+"impact": "High",
+"fitness_type": "Cardio, Strength, Power",
+"focus": "Upper",
+"img": "https://i.imgur.com/BRdDIpm.jpg",
+"demo": "https://www.youtube.com/watch?v=uHdEvvMFlBM",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
+"muscles_worked": "Triceps" 
+},
+
+{"name": "Slap Back Jack",
+"impact": "High",
+"fitness_type": "Cardio",
+"focus": "Full",
+"img": "https://i.imgur.com/P19qLLc.jpg",
+"demo": "https://www.youtube.com/watch?v=d_mcX6lFRDE",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
+"muscles_worked": "Legs" 
+},
+
+{"name": "Speed Skater",
+"impact": "High",
+"fitness_type": "Cardio",
+"focus": "Lower",
+"img": "https://i.imgur.com/AVhW7Mf.jpg",
+"demo": "https://www.youtube.com/watch?v=Jm0BC_Ea1zM",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
+"muscles_worked": "Legs" 
+},
+
+{"name": "Squat Hold",
+"impact": "Low",
+"fitness_type": "Strength",
+"focus": "Lower",
+"img": "https://i.imgur.com/tQ3hOov.jpg",
+"demo": "https://www.youtube.com/watch?v=0SJXR7q1_TE",
+"reps": "30 seconds",
+"muscles_worked": "Butt/Hips, Legs, Thighs" 
+},
+
+{"name": "Squat Jump",
+"impact": "High",
+"fitness_type": "Cardio, Strength, Power",
+"focus": "Lower",
+"img": "https://i.imgur.com/huyVDm1.jpg",
+"demo": "https://www.youtube.com/watch?v=_RSYwTHjp7A",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
+"muscles_worked": "Butt/Hips, Legs, Thighs" 
+},
+
+{"name": "Squats",
+"impact": "Low",
+"fitness_type": "Strength",
+"focus": "Lower",
+"img": "https://i.imgur.com/rXw2E1d.jpg",
+"demo": "https://www.youtube.com/watch?v=e3oH0Mw8lM8",
+"reps": "20 total",
+"muscles_worked": "Butt/Hips, Legs, Thighs" 
+},
+
+{"name": "Sumo Squat to Calf Raise",
+"impact": "Low",
+"fitness_type": "Strength",
+"focus": "Lower",
+"img": "https://i.imgur.com/2y7zJXV.jpg",
+"demo": "https://www.youtube.com/watch?v=fli6p_C5fLI",
+"reps": "15 total",
+"muscles_worked": "Butt/Hips, Legs, Thighs, Calves" 
+},
+
+{"name": "Swimmer",
+"impact": "Low",
+"fitness_type": "Strength",
+"focus": "Core",
+"img": "https://i.imgur.com/17SqdcN.jpg",
+"demo": "https://www.youtube.com/watch?v=pykSuDvHvCY",
+"reps": "30 total",
+"muscles_worked": "Core, Back" 
+},
+
+{"name": "Switch Kick Abs",
+"impact": "Low",
+"fitness_type": "Strength",
+"focus": "Core",
+"img": "https://i.imgur.com/hfmsinZ.jpg",
+"demo": "https://www.youtube.com/watch?v=h5ghnHE07U8",
+"reps": "30 total",
+"muscles_worked": "Core" 
+},
+
+{"name": "Tri Dips",
+"impact": "High",
+"fitness_type": "Cardio, Power",
+"focus": "Upper",
+"img": "https://i.imgur.com/TnEOU0x.jpg",
+"demo": "https://www.youtube.com/watch?v=ctWJnmyNDF4",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
+"muscles_worked": "Triceps" 
+},
+
+{"name": "V Push-Up",
+"impact": "High",
+"fitness_type": "Strength, Power",
+"focus": "Upper",
+"img": "https://i.imgur.com/hdEstQT.jpg",
+"demo": "https://www.youtube.com/watch?v=4NjuW_rASTM",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
+"muscles_worked": "Shoulders, Arms, Chest" 
+},
+
+{"name": "V Push-Up Hold",
+"impact": "High",
+"fitness_type": "Strength, Power",
+"focus": "Upper",
+"img": "https://i.imgur.com/vWIivoF.jpg",
+"demo": "https://www.youtube.com/watch?v=DM3Rbnlxqdg",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
+"muscles_worked": "Shoulders, Arms, Chest" 
+},
+
+{"name": "Wide Pike Up",
+"impact": "High",
+"fitness_type": "Cardio, Power",
+"focus": "Core",
+"img": "https://i.imgur.com/D0akYaB.jpg",
+"demo": "https://www.youtube.com/watch?v=UMYl-jd91kI",
 "reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
 "muscles_worked": "Core" 
 },
