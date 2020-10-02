@@ -2144,3 +2144,249 @@ Processing by WorkoutsController#index as */*
 Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms | Allocations: 1028)
 
 
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.7ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Alt Reverse Lunge"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Lower"], ["img", "https://i.imgur.com/6sruFVI.jpg"], ["demo", "https://www.youtube.com/watch?v=DNxmU1Sks7s"], ["reps", "20 total lunges - 10 on each side alternating each time"], ["created_at", "2020-10-02 17:46:39.787874"], ["updated_at", "2020-10-02 17:46:39.787874"], ["muscles_worked", "Butt/Hips, Legs, Thighs"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (1.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Alt Squat Kick"], ["impact", "Low"], ["fitness_type", "Cardio, Strength, Power"], ["focus", "Lower"], ["img", "https://i.imgur.com/Ho9hZCG.jpg"], ["demo", "https://www.youtube.com/watch?v=-6O06OOW3AA"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.792520"], ["updated_at", "2020-10-02 17:46:39.792520"], ["muscles_worked", "Butt/Hips, Legs, Thighs"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.4ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Alt Toe Touches"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Core"], ["img", "https://i.imgur.com/64Msfc1.jpg"], ["demo", "https://www.youtube.com/watch?v=BeS4ZcROuQw"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.797632"], ["updated_at", "2020-10-02 17:46:39.797632"], ["muscles_worked", "Core"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Alt Toe Touches"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Core"], ["img", "https://i.imgur.com/64Msfc1.jpg"], ["demo", "https://www.youtube.com/watch?v=BeS4ZcROuQw"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.801242"], ["updated_at", "2020-10-02 17:46:39.801242"], ["muscles_worked", "Core"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Alt Wide Push-Ups"], ["impact", "High"], ["fitness_type", "Strength, Power"], ["focus", "Upper"], ["img", "https://i.imgur.com/Wpg0F1F.jpg"], ["demo", "https://www.youtube.com/watch?v=Z71pfIboiBI"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.804792"], ["updated_at", "2020-10-02 17:46:39.804792"], ["muscles_worked", "Shoulders, Arms, Chest"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Alt Lateral Lunges"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Lower"], ["img", "https://i.imgur.com/x41UUD8.jpg"], ["demo", "https://www.youtube.com/watch?v=KquNZQaxj4E"], ["reps", "10 on left side, then 10 on right side"], ["created_at", "2020-10-02 17:46:39.808200"], ["updated_at", "2020-10-02 17:46:39.808200"], ["muscles_worked", "Butt/Hips, Legs, Thighs"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.5ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Backstroke"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Core"], ["img", "https://i.imgur.com/fx60tJY.jpg"], ["demo", "https://www.youtube.com/watch?v=8wVWlSF8B_M"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.811866"], ["updated_at", "2020-10-02 17:46:39.811866"], ["muscles_worked", "Core"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.4ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Bicycle"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Core"], ["img", "https://i.imgur.com/X9n2O7U.jpg"], ["demo", "https://www.youtube.com/watch?v=FnPoz_n9PFg"], ["reps", "20 total"], ["created_at", "2020-10-02 17:46:39.816152"], ["updated_at", "2020-10-02 17:46:39.816152"], ["muscles_worked", "Core"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.4ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Bird Dog"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Core"], ["img", "https://i.imgur.com/BnhRkae.jpg"], ["demo", "https://www.youtube.com/watch?v=DZ321xJdO68"], ["reps", "20 total"], ["created_at", "2020-10-02 17:46:39.820291"], ["updated_at", "2020-10-02 17:46:39.820291"], ["muscles_worked", "Core, Back"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.5ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Burpee"], ["impact", "High"], ["fitness_type", "Cardio, Strength, Power"], ["focus", "Full"], ["img", "https://i.imgur.com/ABBbR8f.jpg"], ["demo", "https://www.youtube.com/watch?v=O-mXdFMxF48"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.823929"], ["updated_at", "2020-10-02 17:46:39.823929"], ["muscles_worked", "Full Body"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Butt Kicks"], ["impact", "High"], ["fitness_type", "Cardio"], ["focus", "Lower"], ["img", "https://i.imgur.com/7KYxdJG.jpg"], ["demo", "https://www.youtube.com/watch?v=AAHxX15vVyg"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.828347"], ["updated_at", "2020-10-02 17:46:39.828347"], ["muscles_worked", "Legs, Calves"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.4ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Climbers"], ["impact", "High"], ["fitness_type", "Cardio"], ["focus", "Full"], ["img", "https://i.imgur.com/zmytD53.jpg"], ["demo", "https://www.youtube.com/watch?v=wag6Jk9-bqA"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.832373"], ["updated_at", "2020-10-02 17:46:39.832373"], ["muscles_worked", "Full Body"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.5ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Diamond Push-Ups"], ["impact", "High"], ["fitness_type", "Strength, Power"], ["focus", "Upper"], ["img", "https://i.imgur.com/g6WrDiJ.jpg"], ["demo", "https://www.youtube.com/watch?v=ACZ6t2TbLRE"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.836596"], ["updated_at", "2020-10-02 17:46:39.836596"], ["muscles_worked", "Shoulders, Arms, Chest"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Forward Linear Jumps"], ["impact", "High"], ["fitness_type", "Cardio, Strength, Power"], ["focus", "Lower"], ["img", "https://i.imgur.com/49LJ9qx.jpg"], ["demo", "https://www.youtube.com/watch?v=oLwA8uBRxNg"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.840327"], ["updated_at", "2020-10-02 17:46:39.840327"], ["muscles_worked", "Butt/Hips, Legs, Thighs"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Frog Jumps"], ["impact", "High"], ["fitness_type", "Cardio, Strength, Power"], ["focus", "Lower"], ["img", "https://i.imgur.com/OQ4BsvZ.jpg"], ["demo", "https://www.youtube.com/watch?v=wMTOs21J8PI"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.844270"], ["updated_at", "2020-10-02 17:46:39.844270"], ["muscles_worked", "Butt/Hips, Legs, Thighs"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Frog Jumps"], ["impact", "High"], ["fitness_type", "Cardio, Strength, Power"], ["focus", "Lower"], ["img", "https://i.imgur.com/OQ4BsvZ.jpg"], ["demo", "https://www.youtube.com/watch?v=wMTOs21J8PI"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.848292"], ["updated_at", "2020-10-02 17:46:39.848292"], ["muscles_worked", "Butt/Hips, Legs, Thighs"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.4ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Frog Jumps"], ["impact", "High"], ["fitness_type", "Cardio, Strength, Power"], ["focus", "Lower"], ["img", "https://i.imgur.com/OQ4BsvZ.jpg"], ["demo", "https://www.youtube.com/watch?v=wMTOs21J8PI"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.851955"], ["updated_at", "2020-10-02 17:46:39.851955"], ["muscles_worked", "Butt/Hips, Legs, Thighs"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "High Knees"], ["impact", "High"], ["fitness_type", "Cardio, Power"], ["focus", "Core"], ["img", "https://i.imgur.com/tg6cv4h.jpg"], ["demo", "https://www.youtube.com/watch?v=EZzd8etndb0"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.856056"], ["updated_at", "2020-10-02 17:46:39.856056"], ["muscles_worked", "Butt/Hips, Legs, Thighs"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Hip Bridge"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Lower"], ["img", "https://i.imgur.com/UeOdEbb.jpg"], ["demo", "https://www.youtube.com/watch?v=HJWSd7LqwNc"], ["reps", "15 total"], ["created_at", "2020-10-02 17:46:39.860636"], ["updated_at", "2020-10-02 17:46:39.860636"], ["muscles_worked", "Butt/Hips"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Hip Bridge"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Lower"], ["img", "https://i.imgur.com/UeOdEbb.jpg"], ["demo", "https://www.youtube.com/watch?v=WsdP6bttOnk"], ["reps", "15 total"], ["created_at", "2020-10-02 17:46:39.864111"], ["updated_at", "2020-10-02 17:46:39.864111"], ["muscles_worked", "Butt/Hips"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "In and Out Abs"], ["impact", "High"], ["fitness_type", "Cardio, Power"], ["focus", "Core"], ["img", "https://i.imgur.com/CHWudfp.jpg"], ["demo", "https://www.youtube.com/watch?v=QXr7cpc3ImU"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.867599"], ["updated_at", "2020-10-02 17:46:39.867599"], ["muscles_worked", "Core"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Jump Lunge"], ["impact", "High"], ["fitness_type", "Cardio, Strength, Power"], ["focus", "Core"], ["img", "https://i.imgur.com/y5jwvBq.jpg"], ["demo", "https://www.youtube.com/watch?v=DwNpQinteeE"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.871105"], ["updated_at", "2020-10-02 17:46:39.871105"], ["muscles_worked", "Butt/Hips, Legs, Thighs"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Lateral Lunge to Squat"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Lower"], ["img", "https://i.imgur.com/1iszM5l.jpg"], ["demo", "https://www.youtube.com/watch?v=kVx7sqHeCTY"], ["reps", "10 on left side, then 10 on right side."], ["created_at", "2020-10-02 17:46:39.878811"], ["updated_at", "2020-10-02 17:46:39.878811"], ["muscles_worked", "Butt/Hips, Legs, Thighs"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Leg Lift"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Core"], ["img", "https://i.imgur.com/ujXCqfq.jpg"], ["demo", "https://www.youtube.com/watch?v=F6NJXjk94to"], ["reps", "15 total"], ["created_at", "2020-10-02 17:46:39.882317"], ["updated_at", "2020-10-02 17:46:39.882317"], ["muscles_worked", "Core"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Medicine Ball Twist"], ["impact", "High"], ["fitness_type", "Cardio"], ["focus", "Full"], ["img", "https://i.imgur.com/aJvdQNE.jpg"], ["demo", "https://www.youtube.com/watch?v=ZFMy19CYvn0"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.885883"], ["updated_at", "2020-10-02 17:46:39.885883"], ["muscles_worked", "Legs, Core, Arms"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (1.7ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Mountain Climbers"], ["impact", "High"], ["fitness_type", "Cardio"], ["focus", "Core"], ["img", "https://i.imgur.com/uz0rXi5.jpg"], ["demo", "https://www.youtube.com/watch?v=1xEnIsD8gLM"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.889305"], ["updated_at", "2020-10-02 17:46:39.889305"], ["muscles_worked", "Core"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Over Unders"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Core"], ["img", "https://i.imgur.com/RtiHQdP.jpg"], ["demo", "https://www.youtube.com/watch?v=wPiuJSpN8tk"], ["reps", "20 total"], ["created_at", "2020-10-02 17:46:39.894827"], ["updated_at", "2020-10-02 17:46:39.894827"], ["muscles_worked", "Core"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.8ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Palms to Elbows"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Core"], ["img", "https://i.imgur.com/GqFJl61.jpg"], ["demo", "https://www.youtube.com/watch?v=ZoPwPHqH3b4"], ["reps", "10 total"], ["created_at", "2020-10-02 17:46:39.899525"], ["updated_at", "2020-10-02 17:46:39.899525"], ["muscles_worked", "Core, Shoulders"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Pike Ups"], ["impact", "High"], ["fitness_type", "Cardio, Power"], ["focus", "Core"], ["img", "https://i.imgur.com/EBZPE91.jpg"], ["demo", "https://www.youtube.com/watch?v=1OiCM0_9hrk"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.905176"], ["updated_at", "2020-10-02 17:46:39.905176"], ["muscles_worked", "Core"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Plank Hold"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Core"], ["img", "https://i.imgur.com/heQZBDJ.jpg"], ["demo", "https://www.youtube.com/watch?v=g-2Wsx-p0J8"], ["reps", "30 second hold"], ["created_at", "2020-10-02 17:46:39.909105"], ["updated_at", "2020-10-02 17:46:39.909105"], ["muscles_worked", "Core"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Plank Jacks"], ["impact", "High"], ["fitness_type", "Cardio, Power"], ["focus", "Core"], ["img", "https://i.imgur.com/pQy65Uz.jpg"], ["demo", "https://www.youtube.com/watch?v=qmCb860mnzY"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.912546"], ["updated_at", "2020-10-02 17:46:39.912546"], ["muscles_worked", "Core"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Push-Ups"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Upper"], ["img", "https://i.imgur.com/8vw9h93.jpg"], ["demo", "https://www.youtube.com/watch?v=h5YbvbCNBko"], ["reps", "10 total"], ["created_at", "2020-10-02 17:46:39.916116"], ["updated_at", "2020-10-02 17:46:39.916116"], ["muscles_worked", "Shoulders, Arms, Chest"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.4ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Push-Up Jack"], ["impact", "High"], ["fitness_type", "Cardio, Power"], ["focus", "Upper"], ["img", "https://i.imgur.com/KEY2TDX.jpg"], ["demo", "https://www.youtube.com/watch?v=jNeoorzKF-w"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.919818"], ["updated_at", "2020-10-02 17:46:39.919818"], ["muscles_worked", "Shoulders, Arms, Chest"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.4ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Reciprocating Knee"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Core"], ["img", "https://i.imgur.com/UVNXYd5.jpg"], ["demo", "https://www.youtube.com/watch?v=8GnIttSBlI0"], ["reps", "30 total"], ["created_at", "2020-10-02 17:46:39.923605"], ["updated_at", "2020-10-02 17:46:39.923605"], ["muscles_worked", "Core"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Russian Twist"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Core"], ["img", "https://i.imgur.com/LhQ7Rq7.jpg"], ["demo", "https://www.youtube.com/watch?v=m5N9lqYjz64"], ["reps", "30 total"], ["created_at", "2020-10-02 17:46:39.927389"], ["updated_at", "2020-10-02 17:46:39.927389"], ["muscles_worked", "Core"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.5ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Single Leg Hip bridge"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Lower"], ["img", "https://i.imgur.com/aovL4sn.jpg"], ["demo", "https://www.youtube.com/watch?v=gHJk9EedJPk"], ["reps", "10 on left side, then 10 on right side"], ["created_at", "2020-10-02 17:46:39.932562"], ["updated_at", "2020-10-02 17:46:39.932562"], ["muscles_worked", "Butt/Hips, Core"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Single Leg Tri Dip"], ["impact", "High"], ["fitness_type", "Cardio, Strength, Power"], ["focus", "Upper"], ["img", "https://i.imgur.com/BRdDIpm.jpg"], ["demo", "https://www.youtube.com/watch?v=uHdEvvMFlBM"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.937755"], ["updated_at", "2020-10-02 17:46:39.937755"], ["muscles_worked", "Triceps"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.2ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Slap Back Jack"], ["impact", "High"], ["fitness_type", "Cardio"], ["focus", "Full"], ["img", "https://i.imgur.com/P19qLLc.jpg"], ["demo", "https://www.youtube.com/watch?v=d_mcX6lFRDE"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.941707"], ["updated_at", "2020-10-02 17:46:39.941707"], ["muscles_worked", "Legs"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Speed Skater"], ["impact", "High"], ["fitness_type", "Cardio"], ["focus", "Lower"], ["img", "https://i.imgur.com/AVhW7Mf.jpg"], ["demo", "https://www.youtube.com/watch?v=Jm0BC_Ea1zM"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.945110"], ["updated_at", "2020-10-02 17:46:39.945110"], ["muscles_worked", "Legs"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.2ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Squat Hold"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Lower"], ["img", "https://i.imgur.com/tQ3hOov.jpg"], ["demo", "https://www.youtube.com/watch?v=0SJXR7q1_TE"], ["reps", "30 seconds"], ["created_at", "2020-10-02 17:46:39.948689"], ["updated_at", "2020-10-02 17:46:39.948689"], ["muscles_worked", "Butt/Hips, Legs, Thighs"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.4ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Squat Jump"], ["impact", "High"], ["fitness_type", "Cardio, Strength, Power"], ["focus", "Lower"], ["img", "https://i.imgur.com/huyVDm1.jpg"], ["demo", "https://www.youtube.com/watch?v=_RSYwTHjp7A"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.952589"], ["updated_at", "2020-10-02 17:46:39.952589"], ["muscles_worked", "Butt/Hips, Legs, Thighs"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Squats"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Lower"], ["img", "https://i.imgur.com/rXw2E1d.jpg"], ["demo", "https://www.youtube.com/watch?v=e3oH0Mw8lM8"], ["reps", "20 total"], ["created_at", "2020-10-02 17:46:39.956319"], ["updated_at", "2020-10-02 17:46:39.956319"], ["muscles_worked", "Butt/Hips, Legs, Thighs"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.9ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Sumo Squat to Calf Raise"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Lower"], ["img", "https://i.imgur.com/2y7zJXV.jpg"], ["demo", "https://www.youtube.com/watch?v=fli6p_C5fLI"], ["reps", "15 total"], ["created_at", "2020-10-02 17:46:39.960139"], ["updated_at", "2020-10-02 17:46:39.960139"], ["muscles_worked", "Butt/Hips, Legs, Thighs, Calves"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.5ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Swimmer"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Core"], ["img", "https://i.imgur.com/17SqdcN.jpg"], ["demo", "https://www.youtube.com/watch?v=pykSuDvHvCY"], ["reps", "30 total"], ["created_at", "2020-10-02 17:46:39.966725"], ["updated_at", "2020-10-02 17:46:39.966725"], ["muscles_worked", "Core, Back"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Switch Kick Abs"], ["impact", "Low"], ["fitness_type", "Strength"], ["focus", "Core"], ["img", "https://i.imgur.com/hfmsinZ.jpg"], ["demo", "https://www.youtube.com/watch?v=h5ghnHE07U8"], ["reps", "30 total"], ["created_at", "2020-10-02 17:46:39.972339"], ["updated_at", "2020-10-02 17:46:39.972339"], ["muscles_worked", "Core"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.4ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Tri Dips"], ["impact", "High"], ["fitness_type", "Cardio, Power"], ["focus", "Upper"], ["img", "https://i.imgur.com/TnEOU0x.jpg"], ["demo", "https://www.youtube.com/watch?v=ctWJnmyNDF4"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.976420"], ["updated_at", "2020-10-02 17:46:39.976420"], ["muscles_worked", "Triceps"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.3ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "V Push-Up"], ["impact", "High"], ["fitness_type", "Strength, Power"], ["focus", "Upper"], ["img", "https://i.imgur.com/hdEstQT.jpg"], ["demo", "https://www.youtube.com/watch?v=4NjuW_rASTM"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.980739"], ["updated_at", "2020-10-02 17:46:39.980739"], ["muscles_worked", "Shoulders, Arms, Chest"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.4ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "V Push-Up Hold"], ["impact", "High"], ["fitness_type", "Strength, Power"], ["focus", "Upper"], ["img", "https://i.imgur.com/vWIivoF.jpg"], ["demo", "https://www.youtube.com/watch?v=DM3Rbnlxqdg"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.984804"], ["updated_at", "2020-10-02 17:46:39.984804"], ["muscles_worked", "Shoulders, Arms, Chest"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Create (0.6ms)[0m  [1m[32mINSERT INTO "workouts" ("name", "impact", "fitness_type", "focus", "img", "demo", "reps", "created_at", "updated_at", "muscles_worked") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Wide Pike Up"], ["impact", "High"], ["fitness_type", "Cardio, Power"], ["focus", "Core"], ["img", "https://i.imgur.com/D0akYaB.jpg"], ["demo", "https://www.youtube.com/watch?v=UMYl-jd91kI"], ["reps", "20 seconds - do as many as you can. Rest for 10 seconds."], ["created_at", "2020-10-02 17:46:39.992013"], ["updated_at", "2020-10-02 17:46:39.992013"], ["muscles_worked", "Core"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/workouts" for ::1 at 2020-10-02 10:46:45 -0700
+Processing by WorkoutsController#index as */*
+  [1m[36mWorkout Load (6.3ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts"[0m
+  ↳ app/controllers/workouts_controller.rb:8:in `index'
+Completed 200 OK in 26ms (Views: 19.7ms | ActiveRecord: 6.3ms | Allocations: 10467)
+
+
+Started GET "/workouts/9" for ::1 at 2020-10-02 10:48:41 -0700
+Processing by WorkoutsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mWorkout Load (0.7ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts" WHERE "workouts"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/workouts_controller.rb:54:in `set_workout'
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 1.0ms | Allocations: 852)
+
+
+Started GET "/workouts" for ::1 at 2020-10-02 10:51:15 -0700
+Processing by WorkoutsController#index as */*
+  [1m[36mWorkout Load (5.9ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts" ORDER BY workout.name DESC[0m
+  ↳ app/controllers/workouts_controller.rb:8:in `index'
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 5.9ms | Allocations: 1282)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  missing FROM-clause entry for table "workout"
+LINE 1: SELECT "workouts".* FROM "workouts" ORDER BY workout.name DE...
+                                                     ^
+):
+  
+app/controllers/workouts_controller.rb:8:in `index'
+Started GET "/workouts" for ::1 at 2020-10-02 10:53:47 -0700
+Processing by WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.7ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts" ORDER BY workout.name DESC[0m
+  ↳ app/controllers/workouts_controller.rb:8:in `index'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.7ms | Allocations: 1276)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  missing FROM-clause entry for table "workout"
+LINE 1: SELECT "workouts".* FROM "workouts" ORDER BY workout.name DE...
+                                                     ^
+):
+  
+app/controllers/workouts_controller.rb:8:in `index'
+Started GET "/workouts" for ::1 at 2020-10-02 10:55:06 -0700
+Processing by WorkoutsController#index as */*
+  [1m[36mWorkout Load (1.6ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts" ORDER BY name DESC[0m
+  ↳ app/controllers/workouts_controller.rb:8:in `index'
+Completed 200 OK in 39ms (Views: 22.3ms | ActiveRecord: 14.1ms | Allocations: 16555)
+
+
+Started GET "/workouts" for ::1 at 2020-10-02 10:55:36 -0700
+Processing by WorkoutsController#index as */*
+  [1m[36mWorkout Load (1.1ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts" ORDER BY "workouts"."name" ASC[0m
+  ↳ app/controllers/workouts_controller.rb:8:in `index'
+Completed 200 OK in 36ms (Views: 24.3ms | ActiveRecord: 8.7ms | Allocations: 16391)
+
+
+Started GET "/" for ::1 at 2020-10-02 10:56:03 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jesshoran/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jesshoran/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.8ms | Allocations: 7)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 222)
+
+
+Started GET "/low_pact" for ::1 at 2020-10-02 10:56:12 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/low_pact"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/low_impact" for ::1 at 2020-10-02 10:56:15 -0700
+Processing by WorkoutsController#low_impact as HTML
+  [1m[36mWorkout Load (0.6ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts" WHERE "workouts"."impact" = $1[0m  [["impact", "Low"]]
+  ↳ app/controllers/workouts_controller.rb:17:in `low_impact'
+Completed 200 OK in 5ms (Views: 1.5ms | ActiveRecord: 0.6ms | Allocations: 2708)
+
+

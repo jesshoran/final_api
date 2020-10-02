@@ -3,7 +3,7 @@ class WorkoutsController < ApplicationController
 
   # GET /workouts
   def index
-    @workouts = Workout.all
+    @workouts = Workout.all.order(:name)
 
     render json: @workouts
   end
@@ -15,6 +15,21 @@ class WorkoutsController < ApplicationController
 
   def low_impact
     @workouts = Workout.where(impact: "Low").sample(9)
+    render json: @workouts
+  end
+
+  def core_blast
+    @workouts = Workout.where(focus: "Core").sample(10)
+    render json: @workouts
+  end
+
+  def leg_day
+    @workouts = Workout.where(focus: "Lower").sample(10)
+    render json: @workouts
+  end
+
+  def surprise_me
+    @workouts = Workout.all.sample(15)
     render json: @workouts
   end
 
