@@ -24,7 +24,7 @@ Workout.create([
 "focus": "Lower",
 "img": "https://i.imgur.com/Ho9hZCG.jpg",
 "demo": "https://www.youtube.com/watch?v=-6O06OOW3AA",
-"reps": "20 seconds - do as many as you can",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
 "muscles_worked": "Butt/Hips, Legs, Thighs" 
 },
 
@@ -34,7 +34,7 @@ Workout.create([
 "focus": "Core",
 "img": "https://i.imgur.com/64Msfc1.jpg",
 "demo": "https://www.youtube.com/watch?v=BeS4ZcROuQw",
-"reps": "20 seconds - do as many as you can",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
 "muscles_worked": "Core" 
 },
 
@@ -44,7 +44,7 @@ Workout.create([
 "focus": "Core",
 "img": "https://i.imgur.com/64Msfc1.jpg",
 "demo": "https://www.youtube.com/watch?v=BeS4ZcROuQw",
-"reps": "20 seconds - do as many as you can",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
 "muscles_worked": "Core" 
 },
 
@@ -54,7 +54,7 @@ Workout.create([
 "focus": "Upper",
 "img": "https://i.imgur.com/Wpg0F1F.jpg",
 "demo": "https://www.youtube.com/watch?v=Z71pfIboiBI",
-"reps": "20 seconds - do as many as you can",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
 "muscles_worked": "Shoulders, Arms, Chest" 
 },
 
@@ -74,7 +74,7 @@ Workout.create([
 "focus": "Core",
 "img": "https://i.imgur.com/fx60tJY.jpg",
 "demo": "https://www.youtube.com/watch?v=8wVWlSF8B_M",
-"reps": "20 seconds - do as many as you can",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
 "muscles_worked": "Core" 
 },
 
@@ -104,7 +104,7 @@ Workout.create([
 "focus": "Full",
 "img": "https://i.imgur.com/ABBbR8f.jpg",
 "demo": "https://www.youtube.com/watch?v=O-mXdFMxF48",
-"reps": "20 seconds - do as many as you can",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
 "muscles_worked": "Full Body" 
 },
 
@@ -114,7 +114,7 @@ Workout.create([
 "focus": "Lower",
 "img": "https://i.imgur.com/7KYxdJG.jpg",
 "demo": "https://www.youtube.com/watch?v=AAHxX15vVyg",
-"reps": "20 seconds - do as many as you can",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
 "muscles_worked": "Legs, Calves" 
 },
 
@@ -124,7 +124,7 @@ Workout.create([
 "focus": "Full",
 "img": "https://i.imgur.com/zmytD53.jpg",
 "demo": "https://www.youtube.com/watch?v=wag6Jk9-bqA",
-"reps": "20 seconds - do as many as you can",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
 "muscles_worked": "Full Body" 
 },
 
@@ -134,7 +134,7 @@ Workout.create([
 "focus": "Upper",
 "img": "https://i.imgur.com/g6WrDiJ.jpg",
 "demo": "https://www.youtube.com/watch?v=ACZ6t2TbLRE",
-"reps": "20 seconds - do as many as you can",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
 "muscles_worked": "Shoulders, Arms, Chest" 
 },
 
@@ -144,7 +144,7 @@ Workout.create([
 "focus": "Lower",
 "img": "https://i.imgur.com/49LJ9qx.jpg",
 "demo": "https://www.youtube.com/watch?v=oLwA8uBRxNg",
-"reps": "20 seconds - do as many as you can",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
 "muscles_worked": "Butt/Hips, Legs, Thighs" 
 },
 
@@ -154,8 +154,118 @@ Workout.create([
 "focus": "Lower",
 "img": "https://i.imgur.com/OQ4BsvZ.jpg",
 "demo": "https://www.youtube.com/watch?v=wMTOs21J8PI",
-"reps": "20 seconds - do as many as you can",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
 "muscles_worked": "Butt/Hips, Legs, Thighs" 
+},
+
+{"name": "Frog Jumps",
+"impact": "High",
+"fitness_type": "Cardio, Strength, Power",
+"focus": "Lower",
+"img": "https://i.imgur.com/OQ4BsvZ.jpg",
+"demo": "https://www.youtube.com/watch?v=wMTOs21J8PI",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
+"muscles_worked": "Butt/Hips, Legs, Thighs" 
+},
+
+{"name": "Frog Jumps",
+"impact": "High",
+"fitness_type": "Cardio, Strength, Power",
+"focus": "Lower",
+"img": "https://i.imgur.com/OQ4BsvZ.jpg",
+"demo": "https://www.youtube.com/watch?v=wMTOs21J8PI",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
+"muscles_worked": "Butt/Hips, Legs, Thighs" 
+},
+
+{"name": "High Knees",
+"impact": "High",
+"fitness_type": "Cardio, Power",
+"focus": "Core",
+"img": "https://i.imgur.com/tg6cv4h.jpg",
+"demo": "https://www.youtube.com/watch?v=EZzd8etndb0",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
+"muscles_worked": "Butt/Hips, Legs, Thighs" 
+},
+
+{"name": "Hip Bridge",
+"impact": "Low",
+"fitness_type": "Strength",
+"focus": "Lower",
+"img": "https://i.imgur.com/UeOdEbb.jpg",
+"demo": "https://www.youtube.com/watch?v=HJWSd7LqwNc",
+"reps": "15 total",
+"muscles_worked": "Butt/Hips" 
+},
+
+{"name": "Hip Bridge",
+"impact": "Low",
+"fitness_type": "Strength",
+"focus": "Lower",
+"img": "https://i.imgur.com/UeOdEbb.jpg",
+"demo": "https://www.youtube.com/watch?v=WsdP6bttOnk",
+"reps": "15 total",
+"muscles_worked": "Butt/Hips" 
+},
+
+{"name": "In and Out Abs",
+"impact": "High",
+"fitness_type": "Cardio, Power",
+"focus": "Core",
+"img": "https://i.imgur.com/CHWudfp.jpg",
+"demo": "https://www.youtube.com/watch?v=QXr7cpc3ImU",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
+"muscles_worked": "Core" 
+},
+
+{"name": "Jump Lunge",
+"impact": "High",
+"fitness_type": "Cardio, Strength, Power",
+"focus": "Core",
+"img": "https://i.imgur.com/y5jwvBq.jpg",
+"demo": "https://www.youtube.com/watch?v=DwNpQinteeE",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
+"muscles_worked": "Butt/Hips, Legs, Thighs" 
+},
+
+{"name": "Lateral Lunge to Squat",
+"impact": "Low",
+"fitness_type": "Strength",
+"focus": "Lower",
+"img": "https://i.imgur.com/1iszM5l.jpg",
+"demo": "https://www.youtube.com/watch?v=kVx7sqHeCTY",
+"reps": "10 on left side, then 10 on right side.",
+"muscles_worked": "Butt/Hips, Legs, Thighs" 
+},
+
+{"name": "Leg Lift",
+"impact": "Low",
+"fitness_type": "Strength",
+"focus": "Core",
+"img": "https://i.imgur.com/ujXCqfq.jpg",
+"demo": "https://www.youtube.com/watch?v=F6NJXjk94to",
+"reps": "15 total",
+"muscles_worked": "Core" 
+},
+
+{"name": "Medicine Ball Twist",
+"impact": "High",
+"fitness_type": "Cardio",
+"focus": "Full",
+"img": "https://i.imgur.com/aJvdQNE.jpg",
+"demo": "https://www.youtube.com/watch?v=ZFMy19CYvn0",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
+"muscles_worked": "Legs, Core, Arms" 
+},
+
+{"name": "Mountain Climbers",
+"impact": "High",
+"fitness_type": "Cardio",
+"focus": "Core",
+"img": "https://i.imgur.com/uz0rXi5.jpg",
+"demo": "https://www.youtube.com/watch?v=1xEnIsD8gLM",
+"reps": "20 seconds - do as many as you can. Rest for 10 seconds.",
+"muscles_worked": "Core" 
 },
 
 ])
