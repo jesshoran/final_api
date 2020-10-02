@@ -8,50 +8,44 @@
 
 Workout.create([
 
-{"name": "Jump Lunge",
-"impact": "High",
-"fitness_type": "Power, Cardio",
-"focus": "Lower Body",
-"img": "https://media1.popsugar-assets.com/files/thumbor/XBjqBbublGCisq8WJ589r9Ljlws/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2018/12/28/137/n/1922729/tmp_1KPWA3_4a8efb52e5e289b7_PS17_0001_GetFit_Fitness_Workout_0738.jpg",
-"demo":"https://www.youtube.com/watch?v=6SFgE2_og_s",
-"reps": 20
-},
-
-{"name": "Burpee",
-"impact": "High",
-"fitness_type": "Power, Cardio",
-"focus": "Lower Body, Upper Body, Core",
-"img": "https://cdn.activebeat.com/eyJidWNrZXQiOiJwdWItc3RvcmFnZSIsImtleSI6ImFjdGl2ZWJlYXQvd3AtY29udGVudC91cGxvYWRzLzIwMTYvMDQvc2h1dHRlcnN0b2NrXzEzNTAyNDY3MzEtNzMweDQ5MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjM4MiwiaGVpZ2h0IjoyNTYsImZpdCI6ImNvdmVyIiwiYmFja2dyb3VuZCI6eyJyIjowLCJnIjowLCJiIjowLCJhbHBoYSI6MX0sInBvc2l0aW9uIjoidG9wIn19fQ==",
-"demo":"https://www.youtube.com/watch?v=6SFgE2_og_s",
-"reps": 10
-},
-
-{"name": "Squat Jack",
-"impact": "High",
-"fitness_type": "Power, Cardio",
-"focus": "Lower Body",
-"img": "https://media1.popsugar-assets.com/files/thumbor/XBjqBbublGCisq8WJ589r9Ljlws/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2018/12/28/137/n/1922729/tmp_1KPWA3_4a8efb52e5e289b7_PS17_0001_GetFit_Fitness_Workout_0738.jpg",
-"demo":"https://www.youtube.com/watch?v=6SFgE2_og_s",
-"reps": 20
-},
-
-{"name": "Lunge",
+{"name": "Alt Reverse Lunge",
 "impact": "Low",
 "fitness_type": "Strength",
-"focus": "Lower Body",
-"img": "https://media1.popsugar-assets.com/files/thumbor/XBjqBbublGCisq8WJ589r9Ljlws/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2018/12/28/137/n/1922729/tmp_1KPWA3_4a8efb52e5e289b7_PS17_0001_GetFit_Fitness_Workout_0738.jpg",
-"demo":"https://www.youtube.com/watch?v=6SFgE2_og_s",
-"reps": 20
+"focus": "Lower",
+"img": "https://i.imgur.com/6sruFVI.jpg",
+"demo":"https://www.youtube.com/watch?v=DNxmU1Sks7s",
+"reps": "20 total lunges - 10 on each side alternating each time",
+"muscles_worked": "Butt/Hips, Legs, Thighs" 
 },
 
-{"name": "Squat",
+{"name": "Alt Squat Kick",
+"impact": "Low",
+"fitness_type": "Cardio, Strength, Power",
+"focus": "Lower",
+"img": "https://i.imgur.com/Ho9hZCG.jpg",
+"demo":"https://www.youtube.com/watch?v=-6O06OOW3AA",
+"reps": "20 seconds - do as many as you can",
+"muscles_worked": "Butt/Hips, Legs, Thighs" 
+},
+
+{"name": "Alt Toe Touches",
 "impact": "Low",
 "fitness_type": "Strength",
-"focus": "Lower Body",
-"img": "https://media1.popsugar-assets.com/files/thumbor/XBjqBbublGCisq8WJ589r9Ljlws/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2018/12/28/137/n/1922729/tmp_1KPWA3_4a8efb52e5e289b7_PS17_0001_GetFit_Fitness_Workout_0738.jpg",
-"demo":"https://www.youtube.com/watch?v=6SFgE2_og_s",
-"reps": 20
-}
+"focus": "Core",
+"img": "https://i.imgur.com/64Msfc1.jpg",
+"demo":"https://www.youtube.com/watch?v=BeS4ZcROuQw",
+"reps": "20 seconds - do as many as you can",
+"muscles_worked": "Core" 
+},
 
+{"name": "Alt Toe Touches",
+"impact": "Low",
+"fitness_type": "Strength",
+"focus": "Core",
+"img": "https://i.imgur.com/64Msfc1.jpg",
+"demo":"https://www.youtube.com/watch?v=BeS4ZcROuQw",
+"reps": "20 seconds - do as many as you can",
+"muscles_worked": "Core" 
+},
 
 ])
