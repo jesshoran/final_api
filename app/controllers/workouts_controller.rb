@@ -9,12 +9,15 @@ class WorkoutsController < ApplicationController
   end
 
   def high_impact
-    @workouts = Workout.where(impact: "High").sample(9)
+    splitList = Workout.where(impact: "High").sample(9)
+    @workouts = {"group_one": [splitList[0], splitList[1], splitList[2]], "group_two": [splitList[3], splitList[4], splitList[5]], "group_three": [splitList[6], splitList[7], splitList[8]]}
     render json: @workouts
+   
   end
 
   def low_impact
-    @workouts = Workout.where(impact: "Low").sample(9)
+    splitList = Workout.where(impact: "Low").sample(9)
+    @workouts = {"group_one": [splitList[0], splitList[1], splitList[2]], "group_two": [splitList[3], splitList[4], splitList[5]], "group_three": [splitList[6], splitList[7], splitList[8]]}
     render json: @workouts
   end
 
@@ -32,7 +35,7 @@ class WorkoutsController < ApplicationController
     @workouts = Workout.all.sample(15)
     render json: @workouts
   end
-
++
   # GET /workouts/1
   def show
     render json: @workout
