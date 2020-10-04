@@ -35,7 +35,7 @@ class WorkoutsController < ApplicationController
     @workouts = Workout.all.sample(15)
     render json: @workouts
   end
-+
+
   # GET /workouts/1
   def show
     render json: @workout
