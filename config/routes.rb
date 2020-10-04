@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'welcome#index'
   resources :workouts 
   get '/high_impact', to: "workouts#high_impact"
   get '/low_impact', to: "workouts#low_impact"

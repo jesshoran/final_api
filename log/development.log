@@ -8957,3 +8957,8 @@ Processing by WorkoutsController#index as */*
 Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.6ms | Allocations: 10106)
 
 
+Started GET "/" for ::1 at 2020-10-03 17:50:51 -0700
+Processing by WelcomeController#index as HTML
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 119)
+
+
