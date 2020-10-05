@@ -27,7 +27,7 @@ class WorkoutsController < ApplicationController
   end
 
   def leg_day
-    @workouts = Workout.where(focus: "Lower").sample(10)
+    splitList = @workouts = Workout.where(focus: "Lower").sample(9)
     render json: @workouts
   end
 

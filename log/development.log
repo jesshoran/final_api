@@ -8962,3 +8962,98 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 119)
 
 
+Started GET "/workouts" for ::1 at 2020-10-03 18:03:17 -0700
+Processing by WorkoutsController#index as */*
+  [1m[36mWorkout Load (2.0ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts" ORDER BY "workouts"."name" ASC[0m
+  ↳ app/controllers/workouts_controller.rb:8:in `index'
+Completed 200 OK in 47ms (Views: 37.4ms | ActiveRecord: 2.0ms | Allocations: 16053)
+
+
+Started GET "/workouts" for ::1 at 2020-10-03 18:05:01 -0700
+Processing by WorkoutsController#index as */*
+  [1m[36mWorkout Load (1.9ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts" ORDER BY "workouts"."name" ASC[0m
+  ↳ app/controllers/workouts_controller.rb:8:in `index'
+Completed 200 OK in 17ms (Views: 14.1ms | ActiveRecord: 1.9ms | Allocations: 10107)
+
+
+Started GET "/workouts" for ::1 at 2020-10-03 18:06:05 -0700
+Processing by WorkoutsController#index as */*
+  [1m[36mWorkout Load (0.8ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts" ORDER BY "workouts"."name" ASC[0m
+  ↳ app/controllers/workouts_controller.rb:8:in `index'
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.8ms | Allocations: 10106)
+
+
+Started GET "/" for ::1 at 2020-10-03 22:07:10 -0700
+Processing by WelcomeController#index as HTML
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 99)
+
+
+Started GET "/" for ::1 at 2020-10-04 12:15:42 -0700
+Processing by WelcomeController#index as HTML
+Completed 200 OK in 10ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 99)
+
+
+Started GET "/fitnesses" for ::1 at 2020-10-04 14:02:41 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/fitnesses"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-10-04 17:07:18 -0700
+Processing by WelcomeController#index as HTML
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 120)
+
+
+Started GET "/favicon.ico" for ::1 at 2020-10-04 17:07:20 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-10-05 06:25:11 -0700
+Processing by WelcomeController#index as HTML
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 99)
+
+
