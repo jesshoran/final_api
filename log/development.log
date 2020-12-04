@@ -9057,3 +9057,23 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 99)
 
 
+  [1m[36mWorkout Load (3.6ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts" WHERE "workouts"."id" = $1 LIMIT $2[0m  [["id", 51], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mWorkout Destroy (2.8ms)[0m  [1m[31mDELETE FROM "workouts" WHERE "workouts"."id" = $1[0m  [["id", 51]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mWorkout Load (0.3ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (4.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "workouts"[0m
+  [1m[36mWorkout Load (0.4ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts" WHERE "workouts"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+Started GET "/" for ::1 at 2020-12-04 12:32:44 -0800
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 174)
+
+
+Started GET "/workouts" for ::1 at 2020-12-04 12:32:51 -0800
+Processing by WorkoutsController#index as HTML
+  [1m[36mWorkout Load (2.1ms)[0m  [1m[34mSELECT "workouts".* FROM "workouts" ORDER BY "workouts"."name" ASC[0m
+  ↳ app/controllers/workouts_controller.rb:8:in `index'
+Completed 200 OK in 36ms (Views: 23.0ms | ActiveRecord: 10.2ms | Allocations: 16663)
+
+
