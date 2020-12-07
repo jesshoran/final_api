@@ -9,7 +9,9 @@ class CreateWorkouts < ActiveRecord::Migration[6.0]
       t.string :demo
       t.integer :reps
 
-      t.timestamps`
-    end
-  end
+      t.timestamps
+  
+  end 
 end
+
+
